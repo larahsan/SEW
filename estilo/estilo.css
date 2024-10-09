@@ -1,0 +1,75 @@
+/*Lara Haya Santiago UO289684*/
+
+/*
+COLORES
+    Texto: 061255
+    Fondo: B2DDF0
+    Fondo del header: ffffff
+*/
+
+body /* Especifidad: 001 */
+{
+    margin: 0px;
+    padding: 0;
+    color: #061255;
+    background-color: #B2DDF0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+header /* Especifidad: 001 */
+{
+    margin: 0px;
+    padding: 30px;
+    width: 100%;
+    color: #061255;
+    background-color: #ffffff;
+}
+
+main /* Especifidad: 001 */
+{
+    width: 100%;
+    margin: 20px;    
+    padding: 0px;     
+}
+
+h1 /* Especifidad: 001 */
+{
+    color:#061255; 
+    background-color: #ffffff;
+    margin: 0;
+    padding: 10px;
+}
+
+nav /* Especifidad: 001 */
+{
+    color:#061255;
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 20px 0px 20px;
+}
+
+nav a /* Especificidad: 002 */
+{
+    color: #061255; 
+    background-color: #ffffff; 
+    padding: 5px; 
+}
+
+section /* Especifidad: 001 */
+{
+    width: 100%;
+    margin: 20px;
+}
+
+a /* Especifidad: 001 */
+{
+    color: #061255;
+    background-color: #ffffff;
+}
+
+p /* Especifidad: 001 */
+{
+    margin:20px;
+}
+  
