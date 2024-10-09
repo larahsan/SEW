@@ -1,0 +1,50 @@
+/*Lara Haya Santiago UO289684*/
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    color: #061255;
+    background-color: #B2DDF0;
+}
+
+header
+{
+    margin: 0px;
+    padding: 30px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+main 
+{
+    width: 100%;
+    margin: 20px;    
+    padding: 0px;     
+}
+
+h1
+{
+    color:#061255; 
+    margin: 0;
+    padding: 10px;
+}
+
+nav
+{
+    color:#E3E3E3; 
+    margin: 0;
+    padding: 10px;
+}
+
+section
+{
+    width: 100%;
+    margin: 20px;
+}
+
+a
+{
+    color: #061255;
+}
+  
