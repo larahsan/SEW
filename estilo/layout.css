@@ -1,0 +1,122 @@
+/*Lara Haya Santiago UO289684*/
+
+/* Especificidad: 001 */
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Especificidad: 001 */
+header
+{
+    padding: 2em 2em;
+    display: flex;
+    align-items: center; 
+}
+
+/* Especificidad: 001 */
+h1
+{
+    margin: 0;
+    padding: 0.5em;
+}
+
+/* Especificidad: 001 */
+nav
+{
+    margin-left: auto;
+    display: flex;
+}
+
+/* Especificidad: 002 */
+nav a
+{
+    padding: 1em;
+}
+
+/* Especificidad: 002 */
+menu a
+{
+    padding: 0.5em;
+}
+
+/* Especificidad: 001 */
+p 
+{
+    margin: 1em;
+}
+
+/* Especificidad: 002 */
+header + p /* Primer párrafo después de header (migas) */
+{
+    margin: 2em 2em;
+}
+
+@media only screen and (max-width: 465px) /* Móviles */
+{
+    /* Especificidad: 001 */
+    header 
+    {
+        flex-direction: column;
+    }
+    
+    /* Especificidad: 001 */
+    nav 
+    {
+        justify-content: center;
+    }
+
+    /* Especificidad: 002 */
+    header + p 
+    {
+        display: none; 
+    }
+}
+
+/* Especificidad: 001 */
+main 
+{
+    margin: 1.5em;    
+    padding: 0;     
+}
+
+/* Especificidad: 001 */
+section 
+{
+    width: 100%;
+    margin: 1em;
+}
+
+/* Especificidad: 001 */
+dt
+{
+    margin: 0 0 0 1.5em;
+}
+
+/* Especificidad: 001 */
+table 
+{
+    margin: 0 0 1em;
+}
+
+/* Especificidad: 001 */
+th, td 
+{
+    padding: 0.5em;
+}
+
+/* Especificidad: 001 */
+footer
+{
+    padding: 1em;
+    border-radius: 1em;
+    margin-right: 120em;
+}
+
+/* Especificidad: 001 */
+button
+{
+    padding: 1em 5em;
+    margin: 1em;
+}
