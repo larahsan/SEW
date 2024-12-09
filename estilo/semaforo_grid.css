@@ -1,0 +1,108 @@
+/*Lara Haya Santiago UO289684*/
+
+/* Especificidad: 001 */
+main
+{
+    /* Layout */
+    width: 70em;
+}
+
+/* Especificidad: 001 */
+h2
+{
+    /* Layout */
+    grid-column: span 4;
+    text-align: center;
+}
+
+/* Especificidad: 001 */
+section
+{
+    /* Layout */
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+}
+
+/* Especificidad: 001 */
+main p
+{
+    /* Estilo */
+    font-weight: bold;
+
+    /* Layout */
+    text-align: center;
+}
+
+/* Especificidad: 001 */
+div
+{
+    /* Layout */
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Especificidad: 002 */
+div div
+{
+    /* Estilo */
+    color: #061255;
+    background: #0007;
+    border: 0.5em solid #000;
+
+    /* Layout */
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 0.5em;
+}
+
+/* Especificidad: 013 */
+main.load div > div
+{
+    animation: in 0.5s forwards;
+}
+
+/* Especificidad: 033 */
+main.load div > div.light:nth-child(2) 
+{
+    animation-delay: 0.5s;
+}
+
+/* Especificidad: 033 */
+main.load div > div.light:nth-child(3) 
+{
+    animation-delay: 1.0s;
+}
+
+/* Especificidad: 033 */
+main.load div > div.light:nth-child(4) 
+{
+    animation-delay: 1.5s;
+}
+
+/* Especificidad: 013 */
+main.unload div > div
+{
+    animation: out 0.1s forwards;
+}
+
+@keyframes in
+{
+    to {background: red;}
+}
+
+@keyframes out
+{
+    /* Esta línea provoca dos advertencias en el validador por los siguientes motivos: 
+    1. Redefinición de la propiedad background-color: es necesaria para apagar y encender las luces del semáforo. 
+    2. Ningún color especificado: se especifica en el selector div div, por lo que no causa efectos laterales no deseados */
+    to {background: #0007;} 
+}
+
+/* Especificidad: 001 */
+ol
+{
+    /* Estilo */
+    list-style-type: decimal;
+}
