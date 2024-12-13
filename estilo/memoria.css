@@ -1,0 +1,106 @@
+/*Lara Haya Santiago UO289684*/
+
+/*
+COLORES
+    Texto: 061255
+    Fondo: B2DDF0
+    Fondo del header y enlaces externos: ffffff
+    Texto de enlaces: 0056B3
+    Boton inhabilitado: e3e8ec
+*/
+
+/* Especificidad: 001 */
+section
+{
+    /* Layout */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+    transition: transform .5s;
+    width: 100%;
+}
+
+/* Especificidad: 001 */
+article 
+{
+    /* Estilo */
+    color: #061255;
+    background-color: #ffffff;
+    border: 0.2em solid #061255;
+
+    /* Layout */
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+/* Especificidad: 012 */
+article:hover h3
+{
+    /* Layout */
+    transform: scale(1.05);
+}
+
+/* Especificidad: 001 */
+h2
+{
+    /* Layout */
+    width: 100%;
+    margin: 1em;
+}
+
+/* Especificidad: 001 */
+h3 
+{
+    /* Estilo */
+    font-size: smaller;
+}
+
+/* Especificidad: 001 */
+h4, button
+{
+    /* Layout */
+    margin-left: 8em;
+}
+
+/* Especificidad: 001 */
+img 
+{
+    /* Layout */
+    width: 90%;
+    height: 90%;
+    transform: rotateY(180deg);
+}
+
+/* Especificidad: 001 */
+h3, img
+{
+    /* Layout */
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+/* Especificidad: 010 */
+[data-state="flip"], [data-state="revealed"]
+{
+    /* Layout */
+    transform: rotateY(180deg);
+}
+
+/* Hacer la cuadrícula más pequeña en un ordenador */
+@media only screen and (min-width: 1000px) 
+{
+	/* Especificidad: 001 */
+    section
+    {
+        /* Layout */
+        width: 50%;
+    }
+}
