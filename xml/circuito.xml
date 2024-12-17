@@ -1,0 +1,511 @@
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+
+<circuito>
+
+    <datos 
+        nombre="Circuito Internacional de Shanghai" 
+        longitudCircuito="5451" 
+        anchuraMedia="13" 
+        fechaCarrera24="21-04-24" 
+        horaEspInicio="9:00" 
+        numVueltas="56" 
+        localidad="Jiading, Shanghai" 
+        país="China"
+    />
+
+    <ref>https://es.wikipedia.org/wiki/Circuito_Internacional_de_Shangh%C3%A1i</ref>
+    <ref>https://es.wikipedia.org/wiki/Anexo:Gran_Premio_de_China_de_2024</ref>
+    <ref>https://lebalap.academy/f1/circuito-internacional-de-shanghai/</ref>
+    <ref>https://latitude.to/articles-by-country/cn/china/6987/shanghai-international-circuit</ref>
+
+    <galería>
+
+        <foto>CircuitoDibujo.jpg</foto>
+        <foto>CircuitoLineaSalida.jpg</foto>
+        <foto>CircuitoPanorama.jpg</foto>
+
+        <vídeo>"ParrillaSalida24.mp4"</vídeo>
+        <vídeo>"VueltaCircuito.mp4"</vídeo>
+
+    </galería>
+
+    <coordenadas
+        longitud="121.2252299"
+        latitud="31.3349949"
+        altitud="4"
+    />
+
+    <tramo
+        distancia="0" 
+        numSector="1">
+
+        <coordenadas
+            longitud="121.2252299"
+            latitud="31.3349949"
+            altitud="3.11"
+        />
+    </tramo>
+
+    <tramo
+        distancia="430" 
+        numSector="2">
+
+        <coordenadas
+            longitud="121.2295858"
+            latitud="31.3358746"
+            altitud="4.12"
+        />
+    </tramo>
+
+    <tramo
+        distancia="320" 
+        numSector="3">
+
+        <coordenadas
+            longitud="121.2317745"
+            latitud="31.3336386"
+            altitud="1.97"
+        />
+    </tramo>
+
+    <tramo
+        distancia="80" 
+        numSector="4">
+
+        <coordenadas
+            longitud="121.2322036"
+            latitud="31.3329788"
+            altitud="1.96"
+        />
+    </tramo>
+
+    <tramo
+        distancia="90" 
+        numSector="5">
+
+        <coordenadas
+            longitud="121.2330834"
+            latitud="31.3326856"
+            altitud="2.36"
+        />
+    </tramo>
+
+    <tramo
+        distancia="60" 
+        numSector="6">
+
+        <coordenadas
+            longitud="121.2335555"
+            latitud="31.3330705"
+            altitud="4.07"
+        />
+    </tramo>
+
+    <tramo
+        distancia="1410" 
+        numSector="7">
+
+        <coordenadas
+            longitud="121.2255732"
+            latitud="31.3437002"
+            altitud="4.37"
+        />
+    </tramo>
+
+    <tramo
+        distancia="90" 
+        numSector="8">
+
+        <coordenadas
+            longitud="121.2246934"
+            latitud="31.3439751"
+            altitud="3.95"
+        />
+    </tramo>
+
+    <tramo
+        distancia="80" 
+        numSector="9">
+
+        <coordenadas
+            longitud="121.2238137"
+            latitud="31.3439385"
+            altitud="4.4"
+        />
+    </tramo>
+
+    <tramo
+        distancia="70" 
+        numSector="10">
+
+        <coordenadas
+            longitud="121.2230627"
+            latitud="31.3434254"
+            altitud="4.78"
+        />
+    </tramo>
+
+    <tramo
+        distancia="170" 
+        numSector="11">
+
+        <coordenadas
+            longitud="121.2229554"
+            latitud="31.3424907"
+            altitud="4.7"
+        />
+    </tramo>
+
+    <tramo
+        distancia="80" 
+        numSector="12">
+
+        <coordenadas
+            longitud="121.2233416"
+            latitud="31.3418859"
+            altitud="3.35"
+        />
+    </tramo>
+
+    <tramo
+        distancia="60" 
+        numSector="13">
+
+        <coordenadas
+            longitud="121.2239424"
+            latitud="31.341666"
+            altitud="3.2"
+        />
+    </tramo>
+
+    <tramo
+        distancia="70" 
+        numSector="14">
+
+        <coordenadas
+            longitud="121.2245647"
+            latitud="31.3419959"
+            altitud="4.06"
+        />
+    </tramo>
+
+    <tramo
+        distancia="420" 
+        numSector="15">
+
+        <coordenadas
+            longitud="121.2268177"
+            latitud="31.3387337"
+            altitud="4.24"
+        />
+    </tramo>
+
+    <tramo
+        distancia="50" 
+        numSector="16">
+
+        <coordenadas
+            longitud="121.22641"
+            latitud="31.3384038"
+            altitud="5.18"
+        />
+    </tramo>
+
+    <tramo
+        distancia="70" 
+        numSector="17">
+
+        <coordenadas
+            longitud="121.2261096"
+            latitud="31.3389903"
+            altitud="4.39"
+        />
+    </tramo>
+
+    <tramo
+        distancia="70" 
+        numSector="18">
+
+        <coordenadas
+            longitud="121.2256805"
+            latitud="31.3394668"
+            altitud="4.39"
+        />
+    </tramo>
+
+    <tramo
+        distancia="80" 
+        numSector="19">
+
+        <coordenadas
+            longitud="121.2248436"
+            latitud="31.3396867"
+            altitud="4.13"
+        />
+    </tramo>
+
+    <tramo
+        distancia="110" 
+        numSector="20">
+
+        <coordenadas
+            longitud="121.2239424"
+            latitud="31.3391369"
+            altitud="3.14"
+        />
+    </tramo>
+
+    <tramo
+        distancia="80" 
+        numSector="21">
+
+        <coordenadas
+            longitud="121.2237493"
+            latitud="31.3384588"
+            altitud="3.11"
+        />
+    </tramo>
+
+    <tramo
+        distancia="90" 
+        numSector="22">
+
+        <coordenadas
+            longitud="121.2232343"
+            latitud="31.3377807"
+            altitud="4.12"
+        />
+    </tramo>
+
+    <tramo
+        distancia="70" 
+        numSector="23">
+
+        <coordenadas
+            longitud="121.2224618"
+            latitud="31.3377807"
+            altitud="1.97"
+        />
+    </tramo>
+
+    <tramo
+        distancia="70" 
+        numSector="24">
+
+        <coordenadas
+            longitud="121.2219683"
+            latitud="31.3382389"
+            altitud="1.96"
+        />
+    </tramo>
+
+    <tramo
+        distancia="160" 
+        numSector="25">
+
+        <coordenadas
+            longitud="121.221346"
+            latitud="31.3391552"
+            altitud="2.36"
+        />
+    </tramo>
+
+    <tramo
+        distancia="270" 
+        numSector="26">
+
+        <coordenadas
+            longitud="121.2208525"
+            latitud="31.3401632"
+            altitud="4.07"
+        />
+    </tramo>
+
+    <tramo
+        distancia="90" 
+        numSector="27">
+
+        <coordenadas
+            longitud="121.2202946"
+            latitud="31.3407863"
+            altitud="4.37"
+        />
+    </tramo>
+
+    <tramo
+        distancia="80" 
+        numSector="28">
+
+        <coordenadas
+            longitud="121.2195436"
+            latitud="31.3410429"
+            altitud="3.95"
+        />
+    </tramo>
+
+    <tramo
+        distancia="50" 
+        numSector="29">
+
+        <coordenadas
+            longitud="121.2190501"
+            latitud="31.340823"
+            altitud="4.4"
+        />
+    </tramo>
+
+    <tramo
+        distancia="90" 
+        numSector="30">
+
+        <coordenadas
+            longitud="121.2191574"
+            latitud="31.33998"
+            altitud="4.78"
+        />
+    </tramo>
+
+    <tramo
+        distancia="260" 
+        numSector="31">
+
+        <coordenadas
+            longitud="121.2201873"
+            latitud="31.3378174"
+            altitud="4.7"
+        />
+    </tramo>
+
+    <tramo
+        distancia="280" 
+        numSector="32">
+
+        <coordenadas
+            longitud="121.22214"
+            latitud="31.3359846"
+            altitud="3.35"
+        />
+    </tramo>
+
+    <tramo
+        distancia="40" 
+        numSector="33">
+
+        <coordenadas
+            longitud="121.2221614"
+            latitud="31.3356181"
+            altitud="3.2"
+        />
+    </tramo>
+
+    <tramo
+        distancia="50" 
+        numSector="34">
+
+        <coordenadas
+            longitud="121.2219898"
+            latitud="31.3351965"
+            altitud="4.06"
+        />
+    </tramo>
+
+    <tramo
+        distancia="30" 
+        numSector="35">
+
+        <coordenadas
+            longitud="121.2217323"
+            latitud="31.3353065"
+            altitud="4.24"
+        />
+    </tramo>
+
+    <tramo
+        distancia="40" 
+        numSector="36">
+
+        <coordenadas
+            longitud="121.2219039"
+            latitud="31.3356364"
+            altitud="5.18"
+        />
+    </tramo>
+
+    <tramo
+        distancia="50" 
+        numSector="37">
+
+        <coordenadas
+            longitud="121.2217537"
+            latitud="31.3360579"
+            altitud="4.39"
+        />
+    </tramo>
+
+    <tramo
+        distancia="60" 
+        numSector="38">
+
+        <coordenadas
+            longitud="121.2212817"
+            latitud="31.3363695"
+            altitud="4.39"
+        />
+    </tramo>
+
+    <tramo
+        distancia="80" 
+        numSector="39">
+
+        <coordenadas
+            longitud="121.2204234"
+            latitud="31.3362779"
+            altitud="4.13"
+        />
+    </tramo>
+
+    <tramo
+        distancia="100" 
+        numSector="40">
+
+        <coordenadas
+            longitud="121.2198011"
+            latitud="31.3355997"
+            altitud="3.14"
+        />
+    </tramo>
+
+    <tramo
+        distancia="120" 
+        numSector="41">
+
+        <coordenadas
+            longitud="121.2199727"
+            latitud="31.3345367"
+            altitud="3.14"
+        />
+    </tramo>
+
+    <tramo
+        distancia="90" 
+        numSector="42">
+
+        <coordenadas
+            longitud="121.2206809"
+            latitud="31.3340235"
+            altitud="3.14"
+        />
+    </tramo>
+
+    <tramo
+        distancia="450" 
+        numSector="43">
+
+        <coordenadas
+            longitud="121.2252299"
+            latitud="31.3349949"
+            altitud="3.14"
+        />
+    </tramo>
+
+</circuito>
