@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Placemark><name>
+Senda del Oso - Hito 1: Desfiladero de las Xanas
+</name><Point><coordinates>
+-5.9915034,43.2778461,176.8771167
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 2: Area Recreativa de Buyera
+</name><Point><coordinates>
+-6.0030836,43.2630167,183.3392121
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 3: Cercado de osas
+</name><Point><coordinates>
+-6.0051840,43.2578451,200.3455615
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 4: Desfiladero de PeñasJuntas
+</name><Point><coordinates>
+-6.0358814,43.2306637,236.7933025
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 5: Desfiladero de Valdecerezales
+</name><Point><coordinates>
+-6.0834632,43.1778536,442.3508823
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><name>
+Senda del Oso - Recorrido
+</name><Placemark><LineString><extrude>
+1
+</extrude><tessellation>
+1
+</tessellation><coordinates>
+-5.9831974,43.2942007,144.6635760
+-5.9915034,43.2778461,176.8771167
+-6.0030836,43.2630167,183.3392121
+-6.0051840,43.2578451,200.3455615
+-6.0358814,43.2306637,236.7933025
+-6.0834632,43.1778536,442.3508823
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></LineString><Style><LineStyle><color>
+#ff0000ff
+</color><width>
+4
+</width></LineStyle></Style></Placemark><Placemark><name>
+Puertos de Marabio - Hito 1: Fuente
+</name><Point><coordinates>
+-6.1186111,43.2011690,983.4061311
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Puertos de Marabio - Hito 2: Pico Caldoveiro
+</name><Point><coordinates>
+-6.1191928,43.2175067,1052.3946822
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Puertos de Marabio - Hito 3: Información
+</name><Point><coordinates>
+-6.1134600,43.2172082,988.1801284
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Puertos de Marabio - Hito 4: Casa de Don Pablo
+</name><Point><coordinates>
+-6.1113247,43.2166728,974.3128216
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Puertos de Marabio - Hito 5: Puertu de Marabiu
+</name><Point><coordinates>
+-6.1110938,43.1997656,998.0000232
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><name>
+Puertos de Marabio - Recorrido
+</name><Placemark><LineString><extrude>
+1
+</extrude><tessellation>
+1
+</tessellation><coordinates>
+-6.1115043,43.1992751,995.5247216
+-6.1186111,43.2011690,983.4061311
+-6.1191928,43.2175067,1052.3946822
+-6.1134600,43.2172082,988.1801284
+-6.1113247,43.2166728,974.3128216
+-6.1110938,43.1997656,998.0000232
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></LineString><Style><LineStyle><color>
+#ff0000ff
+</color><width>
+4
+</width></LineStyle></Style></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 1: Cuadras de la Conca
+</name><Point><coordinates>
+-6.1597003,43.1813765,1141.2631048
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 2: Vicenturo
+</name><Point><coordinates>
+-6.1652772,43.1901905,1235.5815727
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 3: Fuente Brana de Taja
+</name><Point><coordinates>
+-6.1802486,43.1843896,1273.2133808
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 4: Cueiro
+</name><Point><coordinates>
+-6.1915048,43.1786715,1317.2619238
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 5: Taxa
+</name><Point><coordinates>
+-6.1725948,43.1702665,967.5474066
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><name>
+Las brañas de Vicenturo y Cueiro - Recorrido
+</name><Placemark><LineString><extrude>
+1
+</extrude><tessellation>
+1
+</tessellation><coordinates>
+-6.1570672,43.1747966,891.1833800
+-6.1597003,43.1813765,1141.2631048
+-6.1652772,43.1901905,1235.5815727
+-6.1802486,43.1843896,1273.2133808
+-6.1915048,43.1786715,1317.2619238
+-6.1725948,43.1702665,967.5474066
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></LineString><Style><LineStyle><color>
+#ff0000ff
+</color><width>
+4
+</width></LineStyle></Style></Placemark></Document></kml>
