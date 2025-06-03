@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<text x="10" y="20" font-size="20" fill="black">Senda del Oso</text>
+<g transform="translate(0,30)">
+<circle cx="10" cy="150.3557616" r="3" fill="red"/>
+<text x="10" y="130.3557616" font-size="10" fill="black">0: Inicio</text>
+<circle cx="117.0" cy="148.20819222" r="3" fill="red"/>
+<text x="117.0" y="108.20819222" font-size="10" fill="black">1: Desfiladero de las Xanas</text>
+<circle cx="222.0" cy="147.77738586" r="3" fill="red"/>
+<text x="222.0" y="127.77738586000001" font-size="10" fill="black">2: Area Recreativa de Buyera</text>
+<circle cx="255.0" cy="146.64362923333334" r="3" fill="red"/>
+<text x="255.0" y="106.64362923333334" font-size="10" fill="black">3: Cercado de osas</text>
+<circle cx="472.0" cy="144.21377983333332" r="3" fill="red"/>
+<text x="472.0" y="124.21377983333332" font-size="10" fill="black">4: Desfiladero de PeñasJuntas</text>
+<circle cx="862.0" cy="130.50994118" r="3" fill="red"/>
+<text x="862.0" y="90.50994118" font-size="10" fill="black">5: Desfiladero de Valdecerezales</text>
+<polyline points="10,160 10,150.3557616 117.0,148.20819222 222.0,147.77738586 255.0,146.64362923333334 472.0,144.21377983333332 862.0,130.50994118 862.0,160 10,160" style="fill:white;stroke:red;stroke-width:2" />
+</g>
+</svg>
