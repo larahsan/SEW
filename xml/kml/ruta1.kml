@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Placemark><name>
+Senda del Oso - Hito 1: Desfiladero de las Xanas
+</name><Point><coordinates>
+-5.9915034,43.2778461,176.8771167
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 2: Area Recreativa de Buyera
+</name><Point><coordinates>
+-6.0030836,43.2630167,183.3392121
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 3: Cercado de osas
+</name><Point><coordinates>
+-6.0051840,43.2578451,200.3455615
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 4: Desfiladero de PeñasJuntas
+</name><Point><coordinates>
+-6.0358814,43.2306637,236.7933025
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Senda del Oso - Hito 5: Desfiladero de Valdecerezales
+</name><Point><coordinates>
+-6.0834632,43.1778536,442.3508823
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><name>
+Senda del Oso - Recorrido
+</name><Placemark><LineString><extrude>
+1
+</extrude><tessellation>
+1
+</tessellation><coordinates>
+-5.9831974,43.2942007,144.6635760
+-5.9915034,43.2778461,176.8771167
+-6.0030836,43.2630167,183.3392121
+-6.0051840,43.2578451,200.3455615
+-6.0358814,43.2306637,236.7933025
+-6.0834632,43.1778536,442.3508823
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></LineString><Style><LineStyle><color>
+#ff0000ff
+</color><width>
+4
+</width></LineStyle></Style></Placemark></Document></kml>

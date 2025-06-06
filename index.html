@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Turismo en Teverga: Inicio</title>
+    <meta name ="author" content ="Lara Haya Santiago" />
+    <meta name ="description" content ="Documento inicial" />
+    <meta name ="keywords" content ="Inicio" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <!--<link rel="icon" href="multimedia/imagenes/Inicio.ico" />-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Turismo en Teverga</h1>
+
+        <nav>
+            <a title="Inicio" href="index.html" class="active">Inicio</a>
+            <a title="Gastronomía" href="gastronomia.html">Gastronomía</a>
+            <a title="Meteorología" href="meteorologia.html">Meteorología</a>
+            <a title="Rutas" href="rutas.html">Rutas</a>
+            <a title="Reservas" href="reservas.php">Reservas</a>
+            <a title="Juego" href="juego.html">Juego</a>
+            <a title="Ayuda" href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: Inicio</p>
+
+    <main>
+        <!-- Carrusel -->
+        <article>
+            <h3>Un poco de Teverga</h3>
+
+            <img src="multimedia/imagenes/Carrusel/Mapa_situación.png" alt="Foto 1: mapa situación"/>
+            <img src="multimedia/imagenes/Carrusel/Parque_prehistoria.jpg" alt="Foto 2: Parque de la prehistoria"/>
+            <img src="multimedia/imagenes/Carrusel/Senda_oso.jpg" alt="Foto 3: Senda del Oso"/>
+            <img src="multimedia/imagenes/Carrusel/Colegiata_San_Pedro.jpg" alt="Foto 4: Colegiata de San Pedro"/>
+            <img src="multimedia/imagenes/Carrusel/Cascada_Xiblu.jpg" alt="Foto 5: Cascada del Xiblu"/>
+            <button> &gt; </button>
+            <button> &lt; </button>
+        </article>
+        
+        <!-- Noticias -->
+        <article></article>
+    </main>
+
+    <script>
+        var index = new Index();
+        index.crearCarrusel();
+        index.mostrarNoticias();
+    </script>
+</body>
+</html>

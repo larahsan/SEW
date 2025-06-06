@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 1: Cuadras de la Conca
+</name><Point><coordinates>
+-6.1597003,43.1813765,1141.2631048
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 2: Vicenturo
+</name><Point><coordinates>
+-6.1652772,43.1901905,1235.5815727
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 3: Fuente Brana de Taja
+</name><Point><coordinates>
+-6.1802486,43.1843896,1273.2133808
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 4: Cueiro
+</name><Point><coordinates>
+-6.1915048,43.1786715,1317.2619238
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><Placemark><name>
+Las brañas de Vicenturo y Cueiro - Hito 5: Taxa
+</name><Point><coordinates>
+-6.1725948,43.1702665,967.5474066
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></Point></Placemark><name>
+Las brañas de Vicenturo y Cueiro - Recorrido
+</name><Placemark><LineString><extrude>
+1
+</extrude><tessellation>
+1
+</tessellation><coordinates>
+-6.1570672,43.1747966,891.1833800
+-6.1597003,43.1813765,1141.2631048
+-6.1652772,43.1901905,1235.5815727
+-6.1802486,43.1843896,1273.2133808
+-6.1915048,43.1786715,1317.2619238
+-6.1725948,43.1702665,967.5474066
+</coordinates><altitudeMode>
+relativeToGround
+</altitudeMode></LineString><Style><LineStyle><color>
+#ff0000ff
+</color><width>
+4
+</width></LineStyle></Style></Placemark></Document></kml>
