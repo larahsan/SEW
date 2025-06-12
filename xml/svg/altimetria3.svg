@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<text x="10" y="20" font-size="20" fill="black">Las brañas de Vicenturo y Cueiro</text>
+<g transform="translate(0,30)">
+<circle cx="10" cy="100.58777466666666" r="3" fill="green"/>
+<text x="10" y="80.58777466666666" font-size="10" fill="black">0: Inicio</text>
+<circle cx="52.0" cy="83.91579301333333" r="3" fill="green"/>
+<text x="52.0" y="43.91579301333333" font-size="10" fill="black">1: Cuadras de la Conca</text>
+<circle cx="111.0" cy="77.62789515333334" r="3" fill="green"/>
+<text x="111.0" y="57.62789515333334" font-size="10" fill="black">2: Vicenturo</text>
+<circle cx="187.0" cy="75.11910794666666" r="3" fill="green"/>
+<text x="187.0" y="35.11910794666666" font-size="10" fill="black">3: Fuente Brana de Taja</text>
+<circle cx="248.0" cy="72.18253841333333" r="3" fill="green"/>
+<text x="248.0" y="52.18253841333333" font-size="10" fill="black">4: Cueiro</text>
+<circle cx="347.0" cy="95.49683956" r="3" fill="green"/>
+<text x="347.0" y="55.49683956" font-size="10" fill="black">5: Taxa</text>
+<polyline points="10,160 10,100.58777466666666 52.0,83.91579301333333 111.0,77.62789515333334 187.0,75.11910794666666 248.0,72.18253841333333 347.0,95.49683956 347.0,160 10,160" style="fill:white;stroke:green;stroke-width:2" />
+</g>
+</svg>
