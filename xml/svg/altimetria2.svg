@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<text x="10" y="20" font-size="20" fill="black">Puertos de Marabio</text>
+<g transform="translate(0,30)">
+<circle cx="10" cy="93.63168522666666" r="3" fill="blue"/>
+<text x="10" y="73.63168522666666" font-size="10" fill="black">0: Inicio</text>
+<circle cx="44.0" cy="94.43959126" r="3" fill="blue"/>
+<text x="44.0" y="54.43959126" font-size="10" fill="black">1: Fuente</text>
+<circle cx="144.0" cy="89.84035451999999" r="3" fill="blue"/>
+<text x="144.0" y="69.84035451999999" font-size="10" fill="black">2: Pico Caldoveiro</text>
+<circle cx="170.0" cy="94.12132477333334" r="3" fill="blue"/>
+<text x="170.0" y="54.12132477333334" font-size="10" fill="black">3: Información</text>
+<circle cx="180.0" cy="95.04581189333334" r="3" fill="blue"/>
+<text x="180.0" y="75.04581189333334" font-size="10" fill="black">4: Casa de Don Pablo</text>
+<circle cx="284.0" cy="93.46666512" r="3" fill="blue"/>
+<text x="284.0" y="53.46666512" font-size="10" fill="black">5: Puertu de Marabiu</text>
+<polyline points="10,160 10,93.63168522666666 44.0,94.43959126 144.0,89.84035451999999 170.0,94.12132477333334 180.0,95.04581189333334 284.0,93.46666512 284.0,160 10,160" style="fill:white;stroke:blue;stroke-width:2" />
+</g>
+</svg>
