@@ -1,0 +1,310 @@
+/*Lara Haya Santiago UO289684*/
+
+/*
+COLORES
+    Texto: 061255
+    Fondo: B2DDF0
+    Fondo blanco: ffffff
+    Texto de enlaces: 0056B3
+    Boton inhabilitado: e3e8ec
+*/
+
+/* Especificidad: 001 */
+body 
+{
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Especificidad: 001 */
+header
+{
+    padding: 2em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+/* Especificidad: 001 */
+h1
+{
+    margin: 0;
+    padding: 0.5em;
+}
+
+/* Especificidad: 002 */
+body > h2 
+{
+    margin: 2em 0 2em 3em;
+}
+
+/* Especificidad: 001 */
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Especificidad: 002 */
+nav a
+{
+    padding: 1em;
+}
+
+/* Especificidad: 001 */
+p 
+{
+    margin: 1em;
+}
+
+/* Especificidad: 002 */
+header + p
+{
+    margin: 2em 2em;
+}
+
+/* Especificidad: 001 */
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0 2em 4em;
+    gap: 3em;
+}
+
+/* Especificidad: 002 */
+details li 
+{
+    margin-bottom: 0.8em;
+    padding: 0.5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* Especificidad: 001 */
+article 
+{
+    padding: 1.5em;
+}
+
+/* Especificidad: 002 */
+article h3
+{
+    padding-bottom: 1em;
+}
+
+/* Especificidad: 002 */
+main article
+{
+    align-self: flex-start;
+}
+
+/* Especificidad: 001 */
+summary 
+{
+    padding: 0.8em 0.8em;
+}
+
+/* Especificidad: 001 */
+img 
+{
+    margin: 1em 1em 1em 0;
+}
+
+/* Especificidad: 002 */
+details img 
+{
+    width: 20em;
+    height: 15em;
+}
+
+/* Especificidad: 001 */
+video 
+{
+    margin: 1em 1em 1em 0;
+}
+
+/* Especificidad: 002 */
+li video 
+{
+    height: 30em;
+    width: 25em;
+}
+
+/* Especificidad: 013 */
+main section section:nth-of-type(1)
+{
+    width: 30em;
+    height: 30em;
+    margin: 0 0 3em 0;
+}
+
+/* Especificidad: 014 */
+main section section:nth-of-type(2) svg 
+{
+    width: 80em;
+}
+
+/* Especificidad: 003 */
+main > section:has(section) 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+}
+
+/* Especificidad: 004 */
+main article:has(button):has(img)
+{
+    width: 100%;
+    max-width: 50vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Especificidad: 005 */
+main article:has(button):has(img) h3
+{
+    width: 100%;
+}
+
+/* Especificidad: 005 */
+main article:has(button):has(img) img 
+{
+    width: 100%;
+    max-width: 50vh;
+    height: 30vh;
+    position: absolute;
+    object-fit: cover;
+}
+
+/* Especificidad: 003 */
+article:has(img) button 
+{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+  
+/* Especificidad: 012 */
+article button:nth-of-type(1) 
+{
+    top: 50%;
+    right: 2%;
+}  
+
+/* Especificidad: 012 */
+article button:nth-of-type(2) 
+{
+    top: 50%;
+    left: 2%;
+}
+
+/* Especificidad: 001 */
+button
+{
+    padding: 1em;
+    margin: 1em;
+}
+
+/* Especificidad: 004 */
+main:has(button) section h3
+{
+    display: block;
+    width: 100%;
+}
+
+/* Especificidad: 002 */
+article:has(a)
+{
+    width: 90em;
+}
+
+/* Especificidad: 003 */
+article:has(a) img
+{
+    width: 20em;
+    height: auto;
+    margin-left: 1em;
+}
+
+/* Especificidad: 003 */
+article:has(a) h4
+{
+    padding-top: 1em;
+}
+
+/* Especificidad: 003 */
+article:has(a) h4:first-of-type
+{
+    padding-top: 0;
+}
+
+/* Especificidad: 003 */
+main > article:has(> label)
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Especificidad: 004 */
+main > article:has(> label) button
+{
+    align-self: flex-end;
+}
+
+/* Especificidad: 002 */
+main form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Especificidad: 003 */
+main form label
+{
+    margin: 0.5em;
+}
+
+/* Especificidad: 002 */
+main:has(form)
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Especificidad: 014 */
+main:has(> article):has(> section) section:first-of-type
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+/* Especificidad: 003 */
+main:has(> article):has(> section)
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Especificidad: 005 */
+main:has(> article):has(> section) section h2
+{
+    display: block;
+    width: 100%;
+}
