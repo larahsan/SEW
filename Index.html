@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <title>Turismo en Teverga: Inicio</title>
+    <meta name="author" content="Lara Haya Santiago">
+    <meta name="description" content="Documento inicial">
+    <meta name="keywords" content="Inicio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <!--<link rel="icon" href="multimedia/imagenes/Inicio.ico" />-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Turismo en Teverga</h1>
+
+        <nav>
+            <a title="Inicio" href="index.html" class="active">Inicio</a>
+            <a title="Gastronomía" href="gastronomia.html">Gastronomía</a>
+            <a title="Meteorología" href="meteorologia.html">Meteorología</a>
+            <a title="Rutas" href="rutas.html">Rutas</a>
+            <a title="Reservas" href="reservas.php">Reservas</a>
+            <a title="Juego" href="juego.html">Juego</a>
+            <a title="Ayuda" href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: Inicio</p>
+    
+    <h2>Teverga, Principado de Asturias, España</h2>
+
+    <main>
+        <!-- Carrusel -->
+        <article>
+            <h3>Un poco de Teverga</h3>
+
+            <img src="multimedia/imagenes/Carrusel/Mapa_situación.png" alt="Foto 1: mapa situación" style="transform: translateX(0%);">
+            <img src="multimedia/imagenes/Carrusel/Parque_prehistoria.jpg" alt="Foto 2: Parque de la prehistoria" style="transform: translateX(100%);">
+            <img src="multimedia/imagenes/Carrusel/Senda_oso.jpg" alt="Foto 3: Senda del Oso" style="transform: translateX(200%);">
+            <img src="multimedia/imagenes/Carrusel/Colegiata_San_Pedro.jpg" alt="Foto 4: Colegiata de San Pedro" style="transform: translateX(300%);">
+            <img src="multimedia/imagenes/Carrusel/Cascada_Xiblu.jpg" alt="Foto 5: Cascada del Xiblu" style="transform: translateX(400%);">
+            <button> &gt; </button>
+            <button> &lt; </button>
+        </article>
+        
+        <!-- Noticias -->
+        <article><h3>Noticias destacadas</h3><h4><a href="https://www.elcomercio.com/tendencias/salud/gimnasio-lesion-tiktok-redes-sociales/">A Lizeth, una mala práctica en el gimnasio le dejó una lesión grave. Esta es su historia, contada en TikTok</a></h4><p>Lizeth terminó con la columna afectada tras seguir consejos errados en el gimnasio.</p><img alt="A Lizeth, una mala práctica en el gimnasio le dejó una lesión grave. Esta es su historia, contada en TikTok"><h4><a href="https://www.eltiempo.com/cultura/gente/penso-que-era-un-dolor-de-espalda-por-el-gimnasio-pero-descubrio-una-terrible-enfermedad-a-causa-de-una-mala-practica-3462269">Pensó que era un dolor de espalda por el gimnasio, pero descubrió una terrible enfermedad a causa de una mala práctica</a></h4><p>La joven contó cómo una mala práctica en la rutina de ejercicios. Esto fue lo que le pasó.</p><img src="https://imagenes.eltiempo.com/files/og_thumbnail/uploads/2025/06/11/6849807219208.jpeg" alt="Pensó que era un dolor de espalda por el gimnasio, pero descubrió una terrible enfermedad a causa de una mala práctica"><h4><a href="https://www.elcomercio.es/gastronomia/dos-asturianas-jovenes-talentos-agroalimentacion-20250611104103-nt.html">Dos asturianas, entre los 40 jóvenes talentos de la agroalimentación</a></h4><p>El objetivo del proyecto Impulso Agro es visibilizar y respaldar a jóvenes cuyos proyectos están transformando el primer sector</p><img src="https://s1.ppllstatics.com/elcomercio/www/multimedia/2025/06/11/agroalimentacion-destacados-kKN-U2302044550337TN-1200x840@El%20Comercio.jpg" alt="Dos asturianas, entre los 40 jóvenes talentos de la agroalimentación"><h4><a href="https://www.lne.es/gijon/2025/06/10/adios-buen-tiempo-vuelven-lluvias-118458761.html">Adiós al buen tiempo: vuelven las lluvias y las tormentas a Gijón</a></h4><p>El buen tiempo ha sido el protagonista de las últimas horas en Gijón. Tanto que la playa de San Lorenzo se ha llenado de quienes han querido (tanto el sábado como hoy mismo) disfrutar de uno de los primeros baños de la temporada estival. Pero la alegría va a durar poco. Al menos eso dice la previsión del tiempo de la Agencia Estatal de Meteorología.</p><img src="https://estaticos-cdn.prensaiberica.es/clip/c4f0c469-d149-47a9-9868-743cde82fadb_16-9-aspect-ratio_default_0.jpg" alt="Adiós al buen tiempo: vuelven las lluvias y las tormentas a Gijón"></article>
+    </main>
+
+    <script>
+        var index = new Index();
+        index.crearCarrusel();
+        index.mostrarNoticias();
+    </script>
+
+</body></html>

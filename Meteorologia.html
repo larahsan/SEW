@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <title>Turismo en Teverga: Meteorología</title>
+    <meta name="author" content="Lara Haya Santiago">
+    <meta name="description" content="Meteorología">
+    <meta name="keywords" content="Meteorología">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <!--<link rel="icon" href="multimedia/imagenes/Inicio.ico" />-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+    <script src="js/meteorologia.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Turismo en Teverga</h1>
+
+        <nav>
+            <a title="Inicio" href="index.html">Inicio</a>
+            <a title="Gastronomía" href="gastronomia.html">Gastronomía</a>
+            <a title="Meteorología" href="meteorologia.html" class="active">Meteorología</a>
+            <a title="Rutas" href="rutas.html">Rutas</a>
+            <a title="Reservas" href="reservas.php">Reservas</a>
+            <a title="Juego" href="juego.html">Juego</a>
+            <a title="Ayuda" href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: Inicio &gt; Meteorología</p>
+    
+    <!-- Capital de Teverga: La Plaza -->
+    <h2>Información meteorológica de La Plaza, Teverga</h2>
+
+    <main>
+        <!-- Tiempo actual -->
+        <article><h3>Meteorología actual</h3><img src="https://openweathermap.org/img/wn/04d.png" alt="muy nuboso"><p>Descripción: muy nuboso</p><p>Temperatura: 20°C</p><p>Humedad: 58%</p><p>Velocidad del viento: 0.2km/h</p></article>
+        <!-- Pronóstico 7 días -->
+        <article><h3>Pronóstico para los próximos 7 días</h3><details><summary>Día 1</summary><ul><li>Temperatura media: 18.6°C</li><li>Probabilidad de lluvia: 55%</li><li>Velocidad media del viento: 6.3km/h</li></ul></details><details><summary>Día 2</summary><ul><li>Temperatura media: 19°C</li><li>Probabilidad de lluvia: 38%</li><li>Velocidad media del viento: 4.9km/h</li></ul></details><details><summary>Día 3</summary><ul><li>Temperatura media: 14.7°C</li><li>Probabilidad de lluvia: 23%</li><li>Velocidad media del viento: 5.2km/h</li></ul></details><details><summary>Día 4</summary><ul><li>Temperatura media: 14.6°C</li><li>Probabilidad de lluvia: 2%</li><li>Velocidad media del viento: 7.2km/h</li></ul></details><details><summary>Día 5</summary><ul><li>Temperatura media: 18.6°C</li><li>Probabilidad de lluvia: 3%</li><li>Velocidad media del viento: 5.7km/h</li></ul></details><details><summary>Día 6</summary><ul><li>Temperatura media: 23°C</li><li>Probabilidad de lluvia: 18%</li><li>Velocidad media del viento: 5.6km/h</li></ul></details><details><summary>Día 7</summary><ul><li>Temperatura media: 25.8°C</li><li>Probabilidad de lluvia: 30%</li><li>Velocidad media del viento: 4.6km/h</li></ul></details></article>
+    </main>
+
+    <script>
+        var met = new Meteorologia();
+        met.obtenerTiempoActual();
+        met.obtenerPronosticoSemana();
+    </script>
+
+</body></html>
