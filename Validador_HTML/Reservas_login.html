@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <title>Turismo en Teverga: Reservas</title>
+    <meta name="author" content="Lara Haya Santiago">
+    <meta name="description" content="Reservas">
+    <meta name="keywords" content="Reservas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <!--<link rel="icon" href="multimedia/imagenes/Inicio.ico" />-->
+    <script src="js/reservas.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Turismo en Teverga</h1>
+
+        <nav>
+            <a title="Inicio" href="index.html">Inicio</a>
+            <a title="Gastronomía" href="gastronomia.html">Gastronomía</a>
+            <a title="Meteorología" href="meteorologia.html">Meteorología</a>
+            <a title="Rutas" href="rutas.html">Rutas</a>
+            <a title="Reservas" href="reservas.php" class="active">Reservas</a>
+            <a title="Juego" href="juego.html">Juego</a>
+            <a title="Ayuda" href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: Inicio &gt; Reservas</p>
+
+    <h2>Reserva en Teverga</h2>
+
+    <main><article><h3>Iniciar sesión</h3><form>
+                <label>
+                    Email:
+                    <input type="text" name="email" required="">
+                </label>
+                <label>
+                    Contraseña:
+                    <input type="password" name="contraseña" required="">
+                </label>
+            <p hidden=""></p><button type="submit">Siguiente</button></form></article><article><h4>¿No tienes una cuenta?</h4><button type="button">Registrarse</button></article></main>
+
+    <script>
+        let reservas = new Reservas();
+        reservas.mostrarFormulario('login');
+    </script>
+   
+
+</body></html>
