@@ -47,11 +47,12 @@ body p:first-of-type:has(a)
 }
 
 /* Especificidad: 023 */
-body p:first-of-type a:visited
+body p:first-of-type a
 {
    color: #0c2d48;
 }
 
 /*advertencia por herencia de color ...*/
 /*poner p, a {...} por ejemplo puede provocar 2 advertencias (la misma repetida), hay q comprobar las 2
+
 y poner las 2 especificidades (aunq sea la misma)*/
